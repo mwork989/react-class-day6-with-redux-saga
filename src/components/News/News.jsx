@@ -24,6 +24,7 @@ let News  = ({ articles}) =>(
                     <p>{news.content}</p>
                     <p>{news.description}</p>
                    <img style={imgStyle} src={news.urlToImage} alt="article" />
+                   <p>test</p>
                 </section>
             )
     })
